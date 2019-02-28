@@ -18,9 +18,15 @@ stops.delete_at(index_of_cumbernauld)
 # 7. How many stops there are in the array?
 p "There are #{stops.count} stops in the array."
 # 8. How many ways can we return `"Falkirk High"` from the array?
-# a.take, a[index] a.fetch ==> 3
+stops.at(2)
+stops.fetch(2)
+stop[2]
+stops[-5]
+a.take
+
 # 9. Reverse the positions of the stops in the array
-stops.reverse!
+stops.reverse
+stops.reverse! # reverse orginal as well
 # 10. Print out all the stops using a for loop
 for stop in stops
   p stop
